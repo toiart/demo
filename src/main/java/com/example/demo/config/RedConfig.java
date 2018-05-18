@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "red")
 public class RedConfig {
 
+    private String ipAddress;
     private String port;
 
     public String getPort() {
