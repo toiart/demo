@@ -14,6 +14,7 @@ public class News extends BaseDomain implements Serializable {
     private Long newsId;
 
     private String newsType;
+    private String newsSubject;
     private String content;
 
     @Enumerated(EnumType.STRING)
