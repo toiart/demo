@@ -1,1 +1,1 @@
-public
+def public
