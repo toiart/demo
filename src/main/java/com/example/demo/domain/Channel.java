@@ -13,6 +13,7 @@ public class Channel implements Serializable {
     @Id
     private Long channelId;
 
+    private String channelType;
     private String channelName;
 
     @JsonIgnore
