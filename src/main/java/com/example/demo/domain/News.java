@@ -13,6 +13,7 @@ public class News extends BaseDomain implements Serializable {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long newsId;
 
+    private String newsType;
     private String content;
 
     @Enumerated(EnumType.STRING)
